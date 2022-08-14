@@ -1,0 +1,99 @@
+@use "reset" as r;
+@use "header" as h;
+@use "variables" as v;
+
+.welcome-new-bunny-wrapper{
+    // Positioning
+    position: relative;
+
+    // Box model
+    height: 30rem;
+
+    // Visual
+    background-image: url(../img/IMG20200406174222-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 43%;
+
+
+    h2{
+        // Positioning
+        position: absolute;
+        top: 50%;
+        right: 40%;
+
+        // Visual
+        padding: 2rem 1rem;
+        background-color: rgba(255, 255, 255, 0.363);
+
+        // Typography
+        color: v.$primary-color;
+    }
+}
+
+.form-new-bunny-wrapper, 
+.form-departure-bunny-wrapper{
+    form{
+        // Box model
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: v.$div-padding;
+        
+        // Visual
+        margin: v.$div-margin;
+        background-color: v.$primary-color;
+
+        // Typography
+        color: v.$text-color;
+
+        .form-group{
+            // Box model
+            display: flex;
+            flex-direction: column;
+
+            // Visual
+            padding: 0 2rem;
+            margin-bottom: 0.5rem;
+
+            .submit-button{
+                // Visual
+                padding: 1rem 1rem;
+                background-color: v.$secondary-color;
+                cursor: pointer;
+
+                // Typography
+                color: v.$text-color;
+            }
+        }
+    }
+}
+
+.departure-bunny-wrapper{
+    // Positioning
+    position: relative;
+
+    // Box model
+    height: 30rem;
+
+    // Visual
+    background-image: url(../img/received_507124686662687.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 15%;
+
+    h2{
+        // Positioning
+        position: absolute;
+        top: 50%;
+        right: 45%;
+
+        // Visual
+        padding: 2rem 1rem;
+        background-color: rgba(255, 255, 255, 0.363);
+
+        // Typography
+        color: v.$primary-color;
+    }
+}

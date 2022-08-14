@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Bree Serif", serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  background-color: #333231;
+  padding: 2rem 1rem;
+}
+header .logo-wrapper {
+  width: 10%;
+}
+header .nav-wrapper a {
+  padding: 0 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-new-bunny-wrapper {
+  position: relative;
+  height: 30rem;
+  background-image: url(../img/IMG20200406174222-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 43%;
+}
+.welcome-new-bunny-wrapper h2 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  padding: 2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.363);
+  color: #333231;
+}
+
+.form-new-bunny-wrapper form,
+.form-departure-bunny-wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  margin: 2rem 3rem;
+  background-color: #333231;
+  color: white;
+}
+.form-new-bunny-wrapper form .form-group,
+.form-departure-bunny-wrapper form .form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  margin-bottom: 0.5rem;
+}
+.form-new-bunny-wrapper form .form-group .submit-button,
+.form-departure-bunny-wrapper form .form-group .submit-button {
+  padding: 1rem 1rem;
+  background-color: #B99471;
+  cursor: pointer;
+  color: white;
+}
+
+.departure-bunny-wrapper {
+  position: relative;
+  height: 30rem;
+  background-image: url(../img/received_507124686662687.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 15%;
+}
+.departure-bunny-wrapper h2 {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  padding: 2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.363);
+  color: #333231;
+}
+
+/*# sourceMappingURL=main.css.map */

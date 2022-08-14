@@ -1,0 +1,23 @@
+*{
+    // Take border and padding into account in the values defined for widths and heights
+    box-sizing: border-box;
+    // Remove the margins added by the browser
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    // Define 1rem = 10px
+    font-size: 62.5%;
+
+}
+
+body{
+    // Default size to 16px
+    font-size: 1.6rem;
+    font-family: 'Bree Serif', serif;
+}
+
+img{
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+@use "variables" as v;
+
+header{
+    // Box model
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+
+    // Visual
+    background-color: v.$primary-color;
+    padding: v.$div-padding;
+
+    .logo-wrapper{
+        width: 10%;
+    }
+
+    .nav-wrapper{
+        a{
+            // Visual
+            padding: 0 0.5rem;
+
+            // Typography
+            text-decoration: none;
+            color: v.$text-color;
+        }
+    }
+}
